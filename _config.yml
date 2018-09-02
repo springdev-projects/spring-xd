@@ -1,8 +1,14 @@
 ### Global gh-pages pre-amble
 safe: true
 lsi: false
-pygments: true
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
+encoding: UTF-8
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
